@@ -12,25 +12,40 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.header{
-  height: 30px;
-  width: 100%;
-  
 
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #cddbf8;
+  height: 50px;
   display: flex;
-  flex-direction: column;
+  padding-right: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
   color: white;
+  width: 100%;
 }
-
+.toggleBar {
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #a3bef6;
+  padding: 20px;
+  position: fixed;
+  /* z-index: 1000; */
+  transition: right 0.3s ease;
+}
+.sidebar{
+   width: 15%;
+   background-color: #a3bef6;
+   height: 90vh;
+   position: fixed;
+   
+}
 .App-link {
   color: #61dafb;
+}
+.content{
+  margin-left: 200px;
 }
 .modal-overlay{
   position: fixed;
